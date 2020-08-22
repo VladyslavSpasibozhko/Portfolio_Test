@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Catherina Nikitina</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<form id="order_form" class="form hide">
+		<div class="logo">
+			<img src="image/logo.png" alt="logo">
+		</div>
+		<button class="close_button" id="close_button">
+			<img src="./image/icons/close.svg" alt="close_image">
+		</button>
+		<div class="container">
+			<label class="user_name">
+				<input type="text" placeholder="Имя" name="name" required>
+			</label>
+			<label>
+				<input type="email" placeholder="Почта" name="email" required>
+			</label>
+			<label>
+				<input type="text" placeholder="Телефон" name="phone" required>
+			</label>
+			<label class="service">
+				<input type="text" placeholder="Услуга" name="service" required>
+			</label>
+			<label class="checkbox"> Согласен на обработку <br>персональных данных
+				<input id='checkbox' type="checkbox" required>
+			</label>	
+		</div>
+		<button class="sign_up_button" id="sign_up_button">Записаться</button>
+	</form>
+	<div class="button_order">
+		<button id="sing_up">
+			<img src="image/icons/camera.png" alt="camera">
+            <div class="frt">З</div>
+            <div class="sc">А</div>
+            <div class="th">П</div>
+            <div class="fr">И</div>
+            <div class="fv">С</div>
+            <div class="sx">А</div>
+            <div class="sv">Т</div>
+            <div class="eg">Ь</div>
+            <div class="n">С</div>
+            <div class="tn">Я</div>
+		</button>
+	</div>
+	<div class="button_to_top">
+		<button id="button_to_top" class="no-display"><img src="image/icons/back_to_main.svg" alt="toTop"></button>
+	</div>
+	<section class="header" id="header">
+		<div class="background_shadow">
+		</div>
+		<div>
+			<div class="header_top">
+				<div class="logo">
+					<img src="image/logo.png" alt="logo">
+				</div>
+				<div class="main_menu">
+					<button class="main_menu_mobile" data-state='unactive'>
+					</button>
+					<div class="main_menu_ru ">
+						<ul>
+							<li class="main_menu_item"> 
+								<a href="#header">Главная</a>
+							</li>
+							<li class="main_menu_item">
+								<a href="portfolio.html">Портфолио</a></li>
+							<li class="main_menu_item"> 
+								<a href="#price">Прайс</a>
+							</li>
+							<li class="main_menu_item"> 
+								<a href="#biography">Биография</a>
+							</li>
+						</ul>
+					</div>
+					<div class="main_menu_eng ">
+						<ul>
+							<li class="main_menu_item"><a href="#header">Main</a></li>
+							<li class="main_menu_item">
+								<a href="portfolio.html">Portfolio</a></li>
+							<li class="main_menu_item"><a href="#header">Price</a></li>
+							<li class="main_menu_item"><a href="#header">Biography</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="change_language_buttons">
+					<button class="ru active" data-value='ru'>ru</button>
+					<button class="eng" data-value='eng'>eng</button>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="header_links">
+				<div class="header_links_content">
+					<div class="header_links_content_icon">
+							<div>
+								<a href="#">
+									<img src="image/icons/Instagram.svg" alt="instagram">
+								</a>
+							</div>
+							<div>
+								<a href="#">
+									<img src="image/icons/vk.png" alt="vkontakte">
+								</a>
+							</div>
+							<div>
+								<a href="#">
+									<img src="image/icons/facebook.png" alt="facebook">
+								</a>
+							</div>
+							<div>
+								<a href="#">
+									<img src="image/icons/Mail.svg" alt="google">
+								</a>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="biography" id="biography">
+		<div class="biography_title">
+			<div class="biography_title_inner">
+				<h1>Биография</h1>
+				<div></div>
+			</div>
+		</div>
+		<div class="biography_content">
+			<div class="biography_content_image">
+				<div class="img"></div>
+			</div>
+			<div class="biography_content_text">
+				<div class="biography_content_text_main"> 
+					<p>Здравствуйте, меня зовут Екатерина! <br><br>Я портретный фотограф и с 12 лет не выпускаю фотоаппарат из рук. Фотография - не только моя работа, но и моя жизнь, абсолютно все фотографии я делаю от сердца. <br><br>Мой стиль обработки уникален, я не пользуюсь готовыми пресетами и шаблонами обработки, только индивидуальный подход. Ознакомиться с моим <a href="portfolio.html">портфолио</a> - лучше многих слов.</p>
+				</div>
+				<div class="biography_content_text_bottom">
+					<div class="biography_content_text_bottom_item">
+						<p>Более 5 <br> лет опыта</p>
+						<img src="./image/biography_pic/first/Ellipse.png" alt="pic" class="ellipse_1">
+					</div>
+					<div class="biography_content_text_bottom_item">
+						<p>Индивидуальный <br> подход</p>
+						<img src="./image/biography_pic/second/Rectangle.png" alt="pic" class="ellipse_1">
+					</div>
+					<div class="biography_content_text_bottom_item">
+						<p>Разумные <br> сроки</p>
+						<img src="./image/biography_pic/third/Ellipse.png" alt="pic" class="ellipse_1">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="price" id="price">
+		<div class="background_for_image_hover"></div>
+		<div class="price_title">
+			<div class="price_title_inner">		
+				<h1>Прайс</h1>
+				<div></div>	
+			</div>
+		</div>
+		<div class="content_block">
+			<div class="content_block_item_left">
+				<div class="content_block_item_left_title">
+					<h1><a href="portfolio.html">Любовные <img src="./image/icons/right_arrow.png" alt="arrow"></a></h1>
+				</div>
+				<div class="first_left_image">
+					<div class="item_text">
+						<ul>
+							<li>Консультация по созданию образа</li>
+							<li>Неограниченное время сьёмки, до получения результата</li>
+							<li>Все исходники и отбор лучших кадров</li>
+							<li>12 фотографий в авторской обработке</li>
+						</ul>
+						<p>Срок обработки: до 10 дней</p>
+						<p>Стоимость: 3500 &#8381;</p>
+					</div>
+				</div>
+			</div>
+			<div class="content_block_item_right">
+				<div class="content_block_item_right_title">
+					<h1><a href="portfolio.html">Индивидуальные <img src="./image/icons/right_arrow.png" alt="arrow"></a></h1>
+				</div>
+				<div class="first_right_image">
+					<div class="item_text">
+						<ul>
+							<li>Консультация по созданию образа</li>
+							<li>Неограниченное время сьёмки, до получения результата</li>
+							<li>Все исходники и отбор лучших кадров</li>
+							<li>12 фотографий в авторской обработке</li>
+						</ul>
+						<p>Срок обработки: до 10 дней</p>
+						<p>Стоимость: 3500 &#8381;</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content_block">
+			<div class="content_block_item_left">
+				<div class="content_block_item_left_title">
+					<h1><a href="portfolio.html">Семейные <img src="./image/icons/right_arrow.png" alt="arrow"></a></h1>		
+				</div>
+				<div class="second_left_image">
+					<div class="item_text">
+						<ul>
+							<li>Консультация по созданию образа</li>
+							<li>Неограниченное время сьёмки, до получения результата</li>
+							<li>Все исходники и отбор лучших кадров</li>
+							<li>12 фотографий в авторской обработке</li>
+						</ul>
+						<p>Срок обработки: до 10 дней</p>
+						<p>Стоимость: 4000 &#8381;</p>
+					</div>
+				</div>
+			</div>
+			<div class="content_block_item_right">
+				<div class="content_block_item_right_title">
+					<h1><a href="portfolio.html">Свадебные <img src="./image/icons/right_arrow.png" alt="arrow"></a></h1>		
+				</div>
+				<div class="second_right_image">
+					<div class="item_text scroll">
+						<div class="walk">
+							<h1>&#171;Прогулка&#187;</h1>
+							<ul>
+								<li>Консультация по всем вопросам</li>
+								<li>Фотосьемка торжественной церемонии, фото с гостями, свадебная прогулка</li>
+								<li>Общее время работы <i>не более 4 часов</i></li>
+								<li>Все фотографии с цветокоррекцией и 15 фотографий с авторськой обработкой</li>
+							</ul>
+							<p>Срок обработки: до 14 дней</p>
+							<p>Стоимость: 9000 &#8381;</p>
+						</div>
+						<div class="first_dance">
+							<h1>&#171;Первый танец&#187;</h1>
+							<ul>
+								<li>Консультация по всем вопросам</li>
+								<li>Фотосьемка сборов невесты и жениха</li>
+								<li>Фотосьемка торжественной церемонии, фото с гостями, свадебная прогулка</li>
+								<li>Фотосьемка банкета</li>
+								<li>Общее время работы <i>не более 8 часов</i></li>
+								<li>Все фотографии с цветокоррекцией и 25 фотографий с авторськой обработкой</li>
+							</ul>
+							<p>Сток работы: до 20 дней</p>
+							<p>Стоимость: 17000 &#8381;</p>
+						</div>
+						<div class="all_inclusive">
+							<h1>&#171;Всё включено&#187;</h1>
+							<ul>
+								<li>Консультация по всем вопросам</li>
+								<li>Фотосьемка всего свадебного дня: от сборов до выноса торта</li>
+								<li>Общее время работы <i>не более 12 часов</i></li>
+								<li>Все фотографии с цветокоррекцией и 50 фотографий с авторськой обработкой</li>
+							</ul>
+							<p>Сток работы: до 30 дней</p>
+							<p>Стоимость: 30000 &#8381;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="price_block">
+			<div class="top_background"></div>
+			<div class="bottom_background"></div>
+			<div class="price_block_content">
+
+				<div class="price_block_content_item">
+					<div class="price_block_content_item_title">
+						<h1>Курсы </br> Ретуши</h1>
+					</div>
+					<div class="price_block_content_item_image">
+						<img src="image/1.jpg" alt="image">
+						<div class="price_block_content_item_description">
+							<ul>
+								<li>Консультация по созданию образа</li>
+								<li>Неограниченное время съёмки, до получения результата</li>
+								<li>Все исходники и отбор лучших кадров </li>
+								<li>12 фотографий в авторской обработке</li>
+								<li>Срок обработки: до 10 дней</li>
+							</ul>
+						</div>
+					</div>
+					<div class="price_block_content_item_order">
+						<p>6000 <span>&#8381;</span></p>
+					</div>
+				</div>
+				<div class="price_block_content_item">
+					<div class="price_block_content_item_title">
+						<h1>Рекламная </br> Фотография</h1>
+					</div>
+					<div class="price_block_content_item_image">
+						<img src="image/2.jpg" alt="image">
+						<div class="price_block_content_item_description">
+							<ul>
+								<li>Консультация по созданию образа</li>
+								<li>Неограниченное время съёмки, до получения результата</li>
+								<li>Все исходники и отбор лучших кадров </li>
+								<li>12 фотографий в авторской обработке</li>
+								<li>Срок обработки: до 10 дней</li>
+							</ul>
+						</div>
+					</div>
+					<div  class="price_block_content_item_order">
+						<p>2000 <span>&#8381;</span></p>
+					</div>
+				</div>
+				<div class="price_block_content_item">
+					<div class="price_block_content_item_title">
+						<h1>Репoртажная </br> фотосьёмка</h1>
+					</div>
+					<div class="price_block_content_item_image">
+						<img src="image/3.jpg" alt="image">
+						<div class="price_block_content_item_description">
+							<ul>
+								<li>Консультация по созданию образа</li>
+								<li>Неограниченное время съёмки, до получения результата</li>
+								<li>Все исходники и отбор лучших кадров </li>
+								<li>12 фотографий в авторской обработке</li>
+								<li>Срок обработки: до 10 дней</li>
+							</ul>
+						</div>
+					</div>
+					<div class="price_block_content_item_order">
+						<p>2000 <span>&#8381;</span></p>
+					</div>
+				</div>
+				<!-- <div class="theme"></div> -->
+			</div>
+		</div>
+		<div class="footer_reg_form_outer">
+			<div class="footer_reg_form_inner">
+				<h2 class="title_top">При первой записи на сайте скидка 10%</h2>
+				<form class="footer_form">
+					<label>
+						<span>Имя</span>
+						<input type="text" name="name" required placeholder="ФИО">
+					</label>
+					<label>
+						<span>Почта</span>
+						<input type="email" name="email" required placeholder="Почта">
+					</label>
+					<div class="form_bottom_cont">
+						<h2 class="title_bottom">Заполните форму обратной связи и получите скидку.</h2>
+						<button>Записаться</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="footer_links_outer">
+			<div class="footer_links_inner">
+				<div>
+					<a href="#">
+						<img src="image/icons/Instagram.svg" alt="instagram">
+					</a>
+				</div>
+				<div>
+					<a href="#">
+						<img src="image/icons/vk.png" alt="vkontakte">
+					</a>
+				</div>
+				<div>
+					<a href="#">
+						<img src="image/icons/facebook.png" alt="facebook">
+					</a>
+				</div>
+				<div>
+					<a href="#">
+						<img src="image/icons/Mail.svg" alt="google">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>	
+	<script type="text/javascript" src="./js/main.js"></script>
+	<script type="text/javascript" src="./js/main_js_for_form.js"></script>
+	<script type="text/javascript" src="./js/priceBlockImageShadow.js"></script>
+</body>
+</html> 

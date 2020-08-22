@@ -1,0 +1,489 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio Catherina Nikitina</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="node_modules/swiper/css/swiper.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<form id="order_form" class="form hide">
+		<div class="logo">
+			<img src="image/logo.png" alt="logo">
+		</div>
+		<button class="close_button" id="close_button">
+			<img src="./image/icons/close.svg" alt="close_image">
+		</button>
+		<div class="container">
+			<label class="user_name">
+				<input type="text" placeholder="Имя" name="name" required>
+			</label>
+			<label>
+				<input type="email" placeholder="Почта" name="email" required>
+			</label>
+			<label>
+				<input type="text" placeholder="Телефон" name="phone" required>
+			</label>
+			<label class="service">
+				<input type="text" placeholder="Услуга" name="service" required>
+			</label>
+			<label class="checkbox"> Согласен на обработку <br>персональных данных
+				<input id='checkbox' type="checkbox" required>
+			</label>	
+		</div>
+		<button class="sign_up_button" id="sign_up_button">Записаться</button>
+	</form>
+	<div class="portfolio">
+		<div class="portfolio_header">
+			<div class="portfolio_header_title">
+				<div class="to_home_page">
+					<a href="index.html"><img src="image/icons/back_to_main.svg" alt=""></a> 
+				</div>
+				<div class="portfolio_header_title_inner">
+					<h1>Портфолио</h1>
+					<div></div>
+				</div>
+			</div>
+		</div> 
+		<div class="portfolio_love_photo">
+			<div class="portfolio_love_photo_content">
+				<div class="portfolio_love_photo_content_title">
+					<div class="portfolio_love_photo_content_title_inner">
+						<h1>Любовные</h1>
+					</div>
+				</div>
+				<div class=" swippers_block_outer">
+					<div class="swippers_block_inner">
+						<div class="swipper_left">
+
+							<div class="swiper-container ">
+							    <!-- Additional required wrapper -->
+							    <div class="swiper-wrapper">
+							        <!-- Slides -->
+							        <div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_4574.jpg" alt="image">
+									</div>
+									<div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_4574.jpg" alt="image">
+									</div>
+									<div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_4574.jpg" alt="image">
+									</div>
+									<div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_4574.jpg" alt="image">
+									</div>
+							    </div>
+
+							    <!-- If we need navigation buttons -->
+							    <div class="swiper-button-prev"></div>
+							    <div class="swiper-button-next"></div>
+							</div>
+						</div>
+						<div class="swipper_right">
+
+							<div class="swiper-container ">
+							    <!-- Additional required wrapper -->
+							    <div class="swiper-wrapper">
+							        <!-- Slides -->
+							        <div class="swiper-slide ">
+							        	<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_4845.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_4845.jpg" alt="image">
+											</div>
+										</div>
+										<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_4845.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_4845.jpg" alt="image">
+											</div>
+										</div>
+							        </div>
+							        <div class="swiper-slide ">
+							        	<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_4845.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_4845.jpg" alt="image">
+											</div>
+										</div>
+										<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_4845.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_4845.jpg" alt="image">
+											</div>
+										</div>
+							        </div>
+							        <div class="swiper-slide ">
+							        	<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_4845.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_4845.jpg" alt="image">
+											</div>
+										</div>
+										<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_4845.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_4845.jpg" alt="image">
+											</div>
+										</div>
+							        </div>
+
+							    </div>
+
+							    <!-- If we need navigation buttons -->
+							    <div class="swiper-button-prev"></div>
+							    <div class="swiper-button-next"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio_individual_photo">
+			<div class="portfolio_individual_photo_content">
+				<div class="portfolio_individual_photo_content_title">
+					<h1>Индивидуальные</h1>
+				</div>
+				<div class=" swippers_block_outer">
+					<div class="swippers_block_inner">
+						<div class="swipper_left">
+
+							<div class="swiper-container ">
+							    <!-- Additional required wrapper -->
+							    <div class="swiper-wrapper">
+							        <!-- Slides -->
+							        <div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_2996.jpg" alt="image">
+									</div>
+									<div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_2996.jpg" alt="image">
+									</div>
+									<div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_2996.jpg" alt="image">
+									</div>
+									<div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_2996.jpg" alt="image">
+									</div>
+							    </div>
+
+							    <!-- If we need navigation buttons -->
+							    <div class="swiper-button-prev"></div>
+							    <div class="swiper-button-next"></div>
+							</div>
+						</div>
+						<div class="swipper_right">
+
+							<div class="swiper-container ">
+							    <!-- Additional required wrapper -->
+							    <div class="swiper-wrapper">
+							        <!-- Slides -->
+							        <div class="swiper-slide ">
+							        	<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_1726.png" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_1726.png" alt="image">
+											</div>
+										</div>
+										<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_1726.png" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_1726.png" alt="image">
+											</div>
+										</div>
+							        </div>
+							        <div class="swiper-slide ">
+							        	<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+										</div>
+										<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+										</div>
+							        </div>
+							        <div class="swiper-slide ">
+							        	<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+										</div>
+										<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+										</div>
+							        </div>
+
+							    </div>
+
+							    <!-- If we need navigation buttons -->
+							    <div class="swiper-button-prev"></div>
+							    <div class="swiper-button-next"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio_family_photo">
+			<div class="portfolio_family_photo_content">
+				<div class="portfolio_family_photo_content_title">
+					<h1>Семейные</h1>
+				</div>
+				<div class="swippers_block_outer">
+					<div class="swippers_block_inner">
+						<div class="swipper_left">
+
+							<div class="swiper-container ">
+							    <!-- Additional required wrapper -->
+							    <div class="swiper-wrapper">
+							        <!-- Slides -->
+							        <div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_4845.jpg" alt="image">
+									</div>
+									<div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_4845.jpg" alt="image">
+									</div>
+									<div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_4845.jpg" alt="image">
+									</div>
+									<div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_4845.jpg" alt="image">
+									</div>
+							    </div>
+
+							    <!-- If we need navigation buttons -->
+							    <div class="swiper-button-prev"></div>
+							    <div class="swiper-button-next"></div>
+							</div>
+						</div>
+						<div class="swipper_right">
+
+							<div class="swiper-container ">
+							    <!-- Additional required wrapper -->
+							    <div class="swiper-wrapper">
+							        <!-- Slides -->
+							        <div class="swiper-slide ">
+							        	<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg"  alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+										</div>
+										<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+										</div>
+							        </div>
+							        <div class="swiper-slide ">
+							        	<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+										</div>
+										<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+										</div>
+							        </div>
+							        <div class="swiper-slide ">
+							        	<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+										</div>
+										<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/NIKITINA-8.jpg" alt="image">
+											</div>
+										</div>
+							        </div>
+
+							    </div>
+
+							    <!-- If we need navigation buttons -->
+							    <div class="swiper-button-prev"></div>
+							    <div class="swiper-button-next"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio_wedding_photo">
+			<div class="portfolio_wedding_photo_content">
+				<div class="portfolio_wedding_photo_content_title">
+					<h1>Свадебные</h1>
+				</div>
+				<div class=" swippers_block_outer">
+					<div class="swippers_block_inner">
+						<div class="swipper_left">
+		
+							<div class="swiper-container ">
+							    <!-- Additional required wrapper -->
+							    <div class="swiper-wrapper">
+							        <!-- Slides -->
+							        <div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_4574.jpg" alt="image">
+									</div>
+									<div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_4574.jpg" alt="image">
+									</div>
+									<div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_4574.jpg" alt="image">
+									</div>
+									<div class="swipper_left_image swiper-slide">
+										<img src="image/IMG_4574.jpg" alt="image">
+									</div>
+							    </div>
+		
+							    <!-- If we need navigation buttons -->
+							    <div class="swiper-button-prev"></div>
+							    <div class="swiper-button-next"></div>
+							</div>
+						</div>
+						<div class="swipper_right">
+		
+							<div class="swiper-container ">
+							    <!-- Additional required wrapper -->
+							    <div class="swiper-wrapper">
+							        <!-- Slides -->
+							        <div class="swiper-slide ">
+							        	<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_2996.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_2996.jpg" alt="image">
+											</div>
+										</div>
+										<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_2996.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_2996.jpg" alt="image">
+											</div>
+										</div>
+							        </div>
+							        <div class="swiper-slide ">
+							        	<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_2996.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_2996.jpg" alt="image">
+											</div>
+										</div>
+										<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_2996.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_2996.jpg" alt="image">
+											</div>
+										</div>
+							        </div>
+							        <div class="swiper-slide ">
+							        	<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_2996.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_2996.jpg" alt="image">
+											</div>
+										</div>
+										<div class="swipper_right_line">
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_2996.jpg" alt="image">
+											</div>
+											<div class="swipper_right_line_item">
+												<img src="image/IMG_2996.jpg" alt="image">
+											</div>
+										</div>
+							        </div>
+		
+							    </div>
+		
+							    <!-- If we need navigation buttons -->
+							    <div class="swiper-button-prev"></div>
+							    <div class="swiper-button-next"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="button_order">
+		<button id="sing_up">
+			<img src="image/icons/camera.png" alt="camera">
+			<div class="frt">З</div>
+			<div class="sc">А</div>
+			<div class="th">П</div>
+			<div class="fr">И</div>
+			<div class="fv">С</div>
+			<div class="sx">А</div>
+			<div class="sv">Т</div>
+			<div class="eg">Ь</div>
+			<div class="n">С</div>
+			<div class="tn">Я</div>
+		</button>
+	</div>
+	<script src="node_modules/swiper/js/swiper.min.js"></script>
+	<script type="text/javascript" src="./js/swipper.js"></script>
+	<script type="text/javascript" src="./js/main_js_for_form.js"></script>
+</body>
+</html>
